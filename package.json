@@ -1,0 +1,26 @@
+{
+  "name": "textpm-scraper",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:ts": "ts-node -r tsconfig-paths/register --transpiler sucrase/ts-node-plugin examples/index.ts",
+    "dev:js": "node examples/index.js"
+  },
+  "author": "CarlosDev",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cookie": "^0.5.4",
+    "@types/node": "^20.9.0",
+    "sucrase": "^3.34.0",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.6.1",
+    "cheerio": "^1.0.0-rc.12",
+    "cookie": "^0.6.0",
+    "form-data": "^4.0.0"
+  }
+}
