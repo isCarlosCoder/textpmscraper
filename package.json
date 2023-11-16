@@ -1,12 +1,29 @@
 {
   "name": "textpmscraper",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev:ts": "ts-node -r tsconfig-paths/register --transpiler sucrase/ts-node-plugin examples/index.ts",
     "dev:js": "node examples/index.js"
   },
+  "keywords": [
+    "textpro",
+    "text effects",
+    "image generation",
+    "textpmscraper",
+    "text pro",
+    "textpro.me",
+    "npm",
+    "typescript",
+    "react",
+    "react native",
+    "web development",
+    "programming",
+    "npm package",
+    "javascript",
+    "typescript library"
+  ],
   "author": "CarlosDev",
   "license": "ISC",
   "devDependencies": {
