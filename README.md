@@ -1,11 +1,11 @@
-# textpm-scraper
+# textpmscraper
 
 This module provides an interface to interact with the TextPro service, allowing the creation of online text effects. It includes methods to generate images with single or double text.
 
 ## Instalation
 
 ```bash
-npm install textpm-scraper
+npm install textpmscraper
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ textpro.twoTextCreate('https://textpro.me/pornhub-style-logo-online-generator-fr
 ### typescript
 
 ``` typescript
-import { textpro } from 'textpm-scraper/src';
+import { textpro } from 'textpmscraper'
 
 textpro.oneTextCreate('https://textpro.me/online-3d-alien-text-effect-generator-1146.html', 'test')
   .then(result => {
@@ -46,7 +46,6 @@ textpro.twoTextCreate('https://textpro.me/pornhub-style-logo-online-generator-fr
   .then(result => {
     console.log(result);
   });
-
 ```
 
 ### Methods
