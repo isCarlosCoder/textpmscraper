@@ -13,7 +13,7 @@ npm install textpmscraper
 ### javascript
 
 ``` javascript
-const { textpro } = require('textpm-scraper/src');
+const { textpro } = require('textpmscraper');
 
 textpro.oneTextCreate('https://textpro.me/online-3d-alien-text-effect-generator-1146.html', 'test')
   .then(result => {
