@@ -126,7 +126,7 @@ Generates an image with a single text in the TextPro style.
 |matrix           |string           |
 |thunderneon      |string           |
 |neon             |string           |
-|readwarning      |string           |
+|roadwarning      |string           |
 |bokeh            |string           |
 |advancedglow     |string           |
 |thewall          |string           |
